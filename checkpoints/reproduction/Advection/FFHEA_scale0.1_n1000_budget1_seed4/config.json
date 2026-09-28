@@ -1,0 +1,37 @@
+{
+  "operator": "Advection",
+  "variant": "FFHEA",
+  "budget": 1,
+  "model_type": "HEAQNN",
+  "net_size": [
+    80,
+    2
+  ],
+  "num_qubits": 5,
+  "if_trainable_freq": "false",
+  "scale_coeff": 0.1,
+  "ham_bound": [
+    -5,
+    5
+  ],
+  "ham_pauli": "Z",
+  "quantum_backend": "mindquantum",
+  "classical_backend": "pytorch",
+  "seed": 4,
+  "learning_rate": 0.0001,
+  "optimizer": "adam",
+  "batch_size": 100,
+  "num_epochs": 100,
+  "optimizer_steps": 100000,
+  "num_train": 1000,
+  "num_test": 1000,
+  "train_query_pairs": 100000,
+  "test_query_pairs": 1000000,
+  "normalization": "none",
+  "data_path": "data/rr_original/main/Advection/seed4/dataset.npz",
+  "device": "cpu",
+  "simulator": "mqvector",
+  "checkpoint_selection": "minimum_epoch_mean_training_mse",
+  "parameters": 2400,
+  "best_step": 96000
+}

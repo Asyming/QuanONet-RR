@@ -1,0 +1,233 @@
+[
+  {
+    "variant": "TFQuanONet",
+    "num_qubits": 2,
+    "latent_dimension": 4,
+    "net_size": [
+      100,
+      2,
+      100,
+      2
+    ],
+    "expected_parameters": 3201,
+    "published_mean_test_mse": 9.35132015752971e-05,
+    "published_sample_sd_test_mse": 1.689682235239422e-05,
+    "selection": "Minimum mean MSE in published five-seed source data; frozen before new experiments",
+    "source": "results/paper/published_source/ED_Tab2.csv"
+  },
+  {
+    "variant": "TFQuanONet",
+    "num_qubits": 3,
+    "latent_dimension": 8,
+    "net_size": [
+      200,
+      2,
+      200,
+      2
+    ],
+    "expected_parameters": 9601,
+    "published_mean_test_mse": 4.347672263616004e-05,
+    "published_sample_sd_test_mse": 1.1553897151278388e-05,
+    "selection": "Minimum mean MSE in published five-seed source data; frozen before new experiments",
+    "source": "results/paper/published_source/ED_Tab2.csv"
+  },
+  {
+    "variant": "TFQuanONet",
+    "num_qubits": 4,
+    "latent_dimension": 16,
+    "net_size": [
+      200,
+      2,
+      100,
+      2
+    ],
+    "expected_parameters": 9601,
+    "published_mean_test_mse": 3.66113500927895e-05,
+    "published_sample_sd_test_mse": 1.756036668173854e-05,
+    "selection": "Minimum mean MSE in published five-seed source data; frozen before new experiments",
+    "source": "results/paper/published_source/ED_Tab2.csv"
+  },
+  {
+    "variant": "TFQuanONet",
+    "num_qubits": 5,
+    "latent_dimension": 32,
+    "net_size": [
+      100,
+      2,
+      100,
+      2
+    ],
+    "expected_parameters": 8001,
+    "published_mean_test_mse": 3.162116390674324e-05,
+    "published_sample_sd_test_mse": 4.282620402836796e-06,
+    "selection": "Minimum mean MSE in published five-seed source data; frozen before new experiments",
+    "source": "results/paper/published_source/ED_Tab2.csv"
+  },
+  {
+    "variant": "TFQuanONet",
+    "num_qubits": 6,
+    "latent_dimension": 64,
+    "net_size": [
+      100,
+      2,
+      100,
+      2
+    ],
+    "expected_parameters": 9601,
+    "published_mean_test_mse": 2.320100283827742e-05,
+    "published_sample_sd_test_mse": 2.6868951586499733e-06,
+    "selection": "Minimum mean MSE in published five-seed source data; frozen before new experiments",
+    "source": "results/paper/published_source/ED_Tab2.csv"
+  },
+  {
+    "variant": "TFQuanONet",
+    "num_qubits": 7,
+    "latent_dimension": 128,
+    "net_size": [
+      100,
+      2,
+      100,
+      2
+    ],
+    "expected_parameters": 11201,
+    "published_mean_test_mse": 2.5437091153276e-05,
+    "published_sample_sd_test_mse": 5.740532082973214e-06,
+    "selection": "Minimum mean MSE in published five-seed source data; frozen before new experiments",
+    "source": "results/paper/published_source/ED_Tab2.csv"
+  },
+  {
+    "variant": "TFQuanONet",
+    "num_qubits": 8,
+    "latent_dimension": 256,
+    "net_size": [
+      100,
+      2,
+      100,
+      2
+    ],
+    "expected_parameters": 12801,
+    "published_mean_test_mse": 2.281471130696102e-05,
+    "published_sample_sd_test_mse": 4.917366375398873e-06,
+    "selection": "Minimum mean MSE in published five-seed source data; frozen before new experiments",
+    "source": "results/paper/published_source/ED_Tab2.csv"
+  },
+  {
+    "variant": "DeepONet",
+    "num_qubits": 2,
+    "latent_dimension": 4,
+    "net_size": [
+      5,
+      32,
+      5,
+      32,
+      4
+    ],
+    "expected_parameters": 9897,
+    "published_mean_test_mse": 0.000493740927777253,
+    "published_sample_sd_test_mse": 0.00018590609917086567,
+    "selection": "Minimum mean MSE in published five-seed source data; frozen before new experiments",
+    "source": "results/paper/published_source/ED_Tab3.csv"
+  },
+  {
+    "variant": "DeepONet",
+    "num_qubits": 3,
+    "latent_dimension": 8,
+    "net_size": [
+      5,
+      256,
+      5,
+      256,
+      8
+    ],
+    "expected_parameters": 425233,
+    "published_mean_test_mse": 3.2698972790967684e-05,
+    "published_sample_sd_test_mse": 1.3992135046612767e-05,
+    "selection": "Minimum mean MSE in published five-seed source data; frozen before new experiments",
+    "source": "results/paper/published_source/ED_Tab3.csv"
+  },
+  {
+    "variant": "DeepONet",
+    "num_qubits": 4,
+    "latent_dimension": 16,
+    "net_size": [
+      5,
+      256,
+      5,
+      256,
+      16
+    ],
+    "expected_parameters": 429345,
+    "published_mean_test_mse": 3.388609002286104e-05,
+    "published_sample_sd_test_mse": 1.6025159039215367e-05,
+    "selection": "Minimum mean MSE in published five-seed source data; frozen before new experiments",
+    "source": "results/paper/published_source/ED_Tab3.csv"
+  },
+  {
+    "variant": "DeepONet",
+    "num_qubits": 5,
+    "latent_dimension": 32,
+    "net_size": [
+      5,
+      128,
+      5,
+      128,
+      32
+    ],
+    "expected_parameters": 120513,
+    "published_mean_test_mse": 3.0252180658862918e-05,
+    "published_sample_sd_test_mse": 7.174735574844056e-06,
+    "selection": "Minimum mean MSE in published five-seed source data; frozen before new experiments",
+    "source": "results/paper/published_source/ED_Tab3.csv"
+  },
+  {
+    "variant": "DeepONet",
+    "num_qubits": 6,
+    "latent_dimension": 64,
+    "net_size": [
+      5,
+      64,
+      5,
+      64,
+      64
+    ],
+    "expected_parameters": 39873,
+    "published_mean_test_mse": 3.179039267706684e-05,
+    "published_sample_sd_test_mse": 1.1558620472920136e-05,
+    "selection": "Minimum mean MSE in published five-seed source data; frozen before new experiments",
+    "source": "results/paper/published_source/ED_Tab3.csv"
+  },
+  {
+    "variant": "DeepONet",
+    "num_qubits": 7,
+    "latent_dimension": 128,
+    "net_size": [
+      5,
+      128,
+      5,
+      128,
+      128
+    ],
+    "expected_parameters": 145281,
+    "published_mean_test_mse": 3.509181551635266e-05,
+    "published_sample_sd_test_mse": 1.3357868644340816e-05,
+    "selection": "Minimum mean MSE in published five-seed source data; frozen before new experiments",
+    "source": "results/paper/published_source/ED_Tab3.csv"
+  },
+  {
+    "variant": "DeepONet",
+    "num_qubits": 8,
+    "latent_dimension": 256,
+    "net_size": [
+      5,
+      1024,
+      5,
+      1024,
+      256
+    ],
+    "expected_parameters": 6927873,
+    "published_mean_test_mse": 3.250238551117946e-05,
+    "published_sample_sd_test_mse": 1.7521414486267368e-05,
+    "selection": "Minimum mean MSE in published five-seed source data; frozen before new experiments",
+    "source": "results/paper/published_source/ED_Tab3.csv"
+  }
+]

@@ -1,0 +1,32 @@
+\begingroup
+\fontsize{8.5}{10.5}\selectfont
+\setlength{\tabcolsep}{1.5pt}
+\renewcommand{\arraystretch}{1.1}
+\begin{tabular}{@{}llrrrr@{}}
+\toprule
+Task & Source & TF-QuanONet & QuanONet & TF-HEA & DeepONet\\
+\midrule
+Antiderivative & Original & $2.160 \pm 0.194$ & $7.793 \pm 0.542$ & $11.638 \pm 0.091$ & $5.162 \pm 1.167$\\
+ & Reproduced & $2.297 \pm 0.238$ & $7.638 \pm 0.107$ & $11.575 \pm 0.374$ & $4.906 \pm 1.234$\\
+\addlinespace[3pt]
+Homogeneous & Original & $2.196 \pm 0.176$ & $6.627 \pm 0.725$ & $8.054 \pm 0.056$ & $3.538 \pm 0.710$\\
+ & Reproduced & $2.059 \pm 0.109$ & $6.450 \pm 0.241$ & $7.881 \pm 0.255$ & $3.611 \pm 0.809$\\
+\addlinespace[3pt]
+Nonlinear & Original & $2.635 \pm 0.257$ & $8.754 \pm 0.287$ & $13.262 \pm 0.195$ & $6.099 \pm 1.134$\\
+ & Reproduced & $2.667 \pm 0.180$ & $8.589 \pm 0.281$ & $13.316 \pm 0.305$ & $5.903 \pm 1.235$\\
+\addlinespace[3pt]
+Diffusion--reaction & Original & $7.196 \pm 0.236$ & $31.099 \pm 0.861$ & $12.547 \pm 0.269$ & $15.462 \pm 0.546$\\
+ & Reproduced & $7.230 \pm 0.261$ & $31.031 \pm 0.666$ & $12.261 \pm 0.627$ & $16.366 \pm 0.946$\\
+ & Ref. (i) & $46.851 \pm 0.141$ & $53.352 \pm 0.456$ & $47.274 \pm 0.216$ & $48.749 \pm 0.622$\\
+ & Ref. (ii) & $7.204 \pm 0.262$ & $30.991 \pm 0.666$ & $12.224 \pm 0.629$ & $16.328 \pm 0.945$\\
+\addlinespace[3pt]
+Advection & Original & $16.322 \pm 0.719$ & $50.424 \pm 2.041$ & $32.432 \pm 0.678$ & $9.994 \pm 0.878$\\
+ & Reproduced & $16.250 \pm 0.471$ & $51.113 \pm 1.228$ & $31.802 \pm 0.536$ & $9.822 \pm 0.639$\\
+ & Ref. (i) & $24.444 \pm 0.373$ & $55.001 \pm 1.118$ & $36.980 \pm 0.584$ & $18.711 \pm 0.659$\\
+ & Ref. (ii) & $22.205 \pm 0.372$ & $53.874 \pm 1.163$ & $36.191 \pm 0.516$ & $14.810 \pm 0.640$\\
+\addlinespace[3pt]
+Darcy & Original & $6.628 \pm 0.181$ & $11.977 \pm 0.058$ & $7.731 \pm 0.203$ & $5.674 \pm 0.408$\\
+ & Reproduced & $7.062 \pm 0.224$ & $12.361 \pm 0.410$ & $8.061 \pm 0.284$ & $5.771 \pm 0.532$\\
+\bottomrule
+\end{tabular}
+\endgroup

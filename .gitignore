@@ -1,0 +1,22 @@
+/assets/
+/dev/
+/QuanONet/
+
+# Keep generators; exclude generated datasets.
+/data/*
+!/data/*.py
+!/data/prep.sh
+
+# Runtime outputs and local environments.
+/outputs/
+/results/generated/
+.venv/
+venv/
+.env
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+.DS_Store
+*.log
+*.tmp

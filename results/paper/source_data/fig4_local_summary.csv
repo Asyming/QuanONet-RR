@@ -1,0 +1,19 @@
+operator,variant,budget,parameters,mean_local_rmse,sample_sd_local_rmse,repetitions,functions_per_repetition,region,excluded_empty_regions
+Burgers,TFQuanONet,3,1201,0.3733428216661877,0.016913085939156948,5,16,"Largest 10% reference spatial gradients over t>0, separately per function",0
+Burgers,TFQuanONet,1,2401,0.3471629253465662,0.014949919508307786,5,16,"Largest 10% reference spatial gradients over t>0, separately per function",0
+Burgers,TFQuanONet,2,4801,0.3167799530604653,0.02026669717176133,5,16,"Largest 10% reference spatial gradients over t>0, separately per function",0
+Burgers,DeepONet,3,1261,0.5002069013152417,0.019499026816160787,5,16,"Largest 10% reference spatial gradients over t>0, separately per function",0
+Burgers,DeepONet,1,2521,0.4612213843615095,0.02302482550303911,5,16,"Largest 10% reference spatial gradients over t>0, separately per function",0
+Burgers,DeepONet,2,4897,0.44191110568918834,0.03530051062477634,5,16,"Largest 10% reference spatial gradients over t>0, separately per function",0
+AllenCahn,TFQuanONet,3,1201,0.4697327316879579,0.01861084285879558,5,16,Reference |u|<0.9 at t>=0.5,0
+AllenCahn,TFQuanONet,1,2401,0.45778991589729107,0.015395089298500858,5,16,Reference |u|<0.9 at t>=0.5,0
+AllenCahn,TFQuanONet,2,4801,0.41979116654701887,0.005265047629043771,5,16,Reference |u|<0.9 at t>=0.5,0
+AllenCahn,DeepONet,3,1261,0.6170803499193933,0.03491822576829252,5,16,Reference |u|<0.9 at t>=0.5,0
+AllenCahn,DeepONet,1,2521,0.507293384744378,0.03574902076491671,5,16,Reference |u|<0.9 at t>=0.5,0
+AllenCahn,DeepONet,2,4897,0.44992734522059175,0.0320611062650476,5,16,Reference |u|<0.9 at t>=0.5,0
+Wave,TFQuanONet,3,1201,0.44872842204128627,0.057980342819476983,5,16,Fixed spatial probe x=0.2; no Fourier phase metric,0
+Wave,TFQuanONet,1,2401,0.414928422492945,0.02286766373964376,5,16,Fixed spatial probe x=0.2; no Fourier phase metric,0
+Wave,TFQuanONet,2,4801,0.25468149705783694,0.025039721906048695,5,16,Fixed spatial probe x=0.2; no Fourier phase metric,0
+Wave,DeepONet,3,1261,0.5230211974521136,0.05927273368416417,5,16,Fixed spatial probe x=0.2; no Fourier phase metric,0
+Wave,DeepONet,1,2521,0.4827730712959303,0.03939774639845372,5,16,Fixed spatial probe x=0.2; no Fourier phase metric,0
+Wave,DeepONet,2,4897,0.43550790450946086,0.039481560855483815,5,16,Fixed spatial probe x=0.2; no Fourier phase metric,0

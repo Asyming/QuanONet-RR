@@ -1,0 +1,13 @@
+reference,variant,training_noise,testing_noise,mean_percent,sample_sd_percent,repetitions
+original_labels,TFQuanONet,0.0,0.1,16.937688228183703,0.4872790143705558,5
+original_labels,TFQuanONet,0.05,0.1,16.916602571102427,0.489375226281691,5
+original_labels,DeepONet,0.0,0.1,51.7837987744712,2.581348622285705,5
+original_labels,DeepONet,0.05,0.1,16.2474341757378,3.4893225759425337,5
+nominal_reference,TFQuanONet,0.0,0.1,24.873954576148897,0.368878914543957,5
+nominal_reference,TFQuanONet,0.05,0.1,24.873066790632397,0.3574759320791932,5
+nominal_reference,DeepONet,0.0,0.1,53.01012124648271,2.478303557191776,5
+nominal_reference,DeepONet,0.05,0.1,22.979529401375395,2.701657995556284,5
+scheme_aligned_reference,TFQuanONet,0.0,0.1,22.699731261405194,0.3794586233177591,5
+scheme_aligned_reference,TFQuanONet,0.05,0.1,22.699914254426666,0.3722960495766964,5
+scheme_aligned_reference,DeepONet,0.0,0.1,51.95792543719481,2.4087837337611435,5
+scheme_aligned_reference,DeepONet,0.05,0.1,20.349876182165268,3.048139784346826,5

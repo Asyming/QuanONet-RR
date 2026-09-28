@@ -1,0 +1,36 @@
+{
+  "test": {
+    "split": "test",
+    "input_noise_fraction_of_training_std": 0.0,
+    "noise_seed": 20260923,
+    "input_noise_std": 0.0,
+    "noise_reference": "global_clean_training_branch_std",
+    "relative_l2": 0.46666284180264234,
+    "mse": 0.05282637656536696,
+    "mae": 0.1529526561498642,
+    "max_error": 3.339602470397949,
+    "per_function_relative_l2_mean": 0.4813158822381954,
+    "per_function_relative_l2_std": 0.10095775484162607,
+    "per_function_relative_l2_median": 0.4629680151113592,
+    "functions": 1000,
+    "queries": 1000000,
+    "seconds": 516.3951142728329
+  },
+  "val": {
+    "split": "val",
+    "input_noise_fraction_of_training_std": 0.0,
+    "noise_seed": 20260923,
+    "input_noise_std": 0.0,
+    "noise_reference": "global_clean_training_branch_std",
+    "relative_l2": 0.46366390521731854,
+    "mse": 0.05141939195282569,
+    "mae": 0.1523868292570114,
+    "max_error": 2.958383798599243,
+    "per_function_relative_l2_mean": 0.48179198741440077,
+    "per_function_relative_l2_std": 0.1046026575894458,
+    "per_function_relative_l2_median": 0.453463648369101,
+    "functions": 200,
+    "queries": 200000,
+    "seconds": 102.24954327801242
+  }
+}
